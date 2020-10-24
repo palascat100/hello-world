@@ -1,12 +1,16 @@
 package electrictest;
 
+/*
+ * imports necessary classes
+ */
 import java.awt.Color;  
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-
 import javax.swing.JPanel;
 
-
+/*
+ * panel class for the dialog where charges can be moved
+ */
 public class RealPanelBasic2 extends JPanel {
 	
 	Graphics2D g2d;
@@ -18,6 +22,9 @@ public class RealPanelBasic2 extends JPanel {
 		this.setBounds(0, 0, 489, 485);
 	}
 	
+	/*
+	 * Creates the grid
+	 */
 	 @Override
 	 public void paintComponent(Graphics g) 
 	 {
